@@ -31,6 +31,8 @@
 import { CssModules } from "./components/CssModules";
 import { InlineStyle } from "./components/inlineStyle";
 import { StyleJsx } from "./components/StyeledJsx";
+import { StyledComponents } from "./components/StyledComponents";
+import { Emotion } from "./components/Emotion";
 import "./styles.css";
 //セッション4---------------------------------------------
 export default function App() {
@@ -39,6 +41,8 @@ export default function App() {
       <InlineStyle />
       <CssModules />
       <StyleJsx />
+      <StyledComponents />
+      <Emotion />
     </div>
   );
 }
