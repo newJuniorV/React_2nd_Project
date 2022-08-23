@@ -30,6 +30,7 @@
 
 import { CssModules } from "./components/CssModules";
 import { InlineStyle } from "./components/inlineStyle";
+import { StyleJsx } from "./components/StyeledJsx";
 import "./styles.css";
 //セッション4---------------------------------------------
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
     <div className="App">
       <InlineStyle />
       <CssModules />
+      <StyleJsx />
     </div>
   );
 }

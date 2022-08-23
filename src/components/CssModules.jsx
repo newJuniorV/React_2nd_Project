@@ -1,4 +1,5 @@
 //セッション4---------------------------------------------
+//CSSを別のファイルにまとめてモジュールとしてまとめてインポートする方法
 import classes from "./CssModules.module.scss";
 
 export const CssModules = () => {
