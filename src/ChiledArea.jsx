@@ -6,6 +6,7 @@ const style = {
   backgroundColor: "khaki"
 };
 
+//memoを使うことで、propsが変更されたときのみ、子であるこのchiledcomponentsが再レンダリングされる
 export const ChildArea = memo((props) => {
   const { open, onClickClose } = props;
   console.log("ChildAreaが再レンダリングされた！");

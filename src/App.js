@@ -11,6 +11,7 @@
 
 //   const onClickOpen = () => setOpen(!open);
 
+//useCallbackで囲むことで、同じ関数とみなされて、propsが変化しなくなる　つまりこのコンポーネントが再度レンダリングされることがなくなる
 //   const onClickClose = useCallback(() => setOpen(false), []);
 
 //   // const onClickAdd = () => {
